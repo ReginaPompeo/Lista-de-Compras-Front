@@ -1,0 +1,112 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #fdfcf5;
+  background-image: repeating-linear-gradient(
+    white 0px,
+    white 23px,
+    #d6e2ff 24px
+  );
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+.folha {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-left: 5px solid #ff7070;
+  width: 600px;
+  max-width: 90%;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-linha {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-linha input[type="text"] {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-linha button {
+  background-color: #6b9aff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+/* ✨ Efeito quando passa o mouse */
+.input-linha button:hover {
+  background-color: #4d7dff; /* tom um pouco mais escuro */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* 💨 Efeito de clique */
+.input-linha button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul.lista {
+  list-style: none;
+  padding: 0;
+}
+
+ul.lista li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #ccc;
+}
+
+.linha-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #ccc;
+  padding: 8px 0;
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox {
+background-color: green;
+}
+.acoes button {
+}
+
+.editando {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.feito {
+  text-decoration: line-through;
+  color: gray;
+}
