@@ -8,10 +8,11 @@ A interface permite criar e gerenciar itens da lista de compras de forma simples
 
 ## 🚀 Tecnologias Utilizadas
 
-- **React (HTML, CSS, JavaScript)**
-- **useState / useEffect**
-- **Fetch API**
-- **Netlify (deploy)**
+- **React (JavaScript)** — criação de componentes, estados e consumo da API.
+- **HTML e CSS puro** — interface estilizada em formato de folha de caderno.
+- **Fetch API** — comunicação direta com o backend.
+- **Netlify (deploy)** — hospedagem.
+- **Vite** — ferramenta para rodar e buildar o projeto com alta performance.
 
 ---
 
