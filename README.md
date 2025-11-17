@@ -1,16 +1,81 @@
-# React + Vite
+# 🎨 Lista de Compras — Frontend (React + Netlify)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **frontend** da aplicação Lista de Compras, desenvolvido em **React**, consumindo a API hospedada no **Render**.
 
-Currently, two official plugins are available:
+A interface permite criar e gerenciar itens da lista de compras de forma simples, rápida e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React (HTML, CSS, JavaScript)**
+- **useState / useEffect**
+- **Fetch API**
+- **Netlify (deploy)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Funcionalidades
+
+O usuário pode:
+
+✔ Adicionar itens  
+✔ Editar nome e quantidade  
+✔ Marcar como comprado  
+✔ Desmarcar  
+✔ Excluir itens  
+✔ Ver a lista atualizada automaticamente após qualquer ação  
+
+Tudo consumindo a API **em tempo real**.
+
+---
+
+## 🔌 Integração com Backend
+
+O frontend consome a API hospedada na Render:
+
+```
+https://lista-de-compras-api-hi0w.onrender.com/api/itens
+```
+
+### **Endpoints utilizados**
+- **GET** `/api/itens`
+- **GET** `/api/itens/{id}`
+- **POST** `/api/itens`
+- **PUT** `/api/itens/{id}`
+- **DELETE** `/api/itens/{id}`
+
+---
+
+## 🎨 Interface
+
+A interface possui:
+
+- Layout inspirado em **folha de caderno** 📘  
+- Lista estilizada com linhas  
+- Campo de texto + quantidade  
+- Edição inline com **botão de salvar (ícone de disquete)**  
+- Botões com hover animado  
+- Diferenciação visual quando `purchased = true`  
+- Estilização feita em **CSS puro**
+
+---
+
+## ☁️ Deploy no Netlify
+
+O frontend é hospedado no **Netlify**, garantindo:
+
+- Build rápido e automático  
+- Deploy contínuo via GitHub  
+- CORS já configurado no backend  
+- Comunicação direta com a API do Render  
+
+---
+
+## 🧠 O que foi aprendido
+
+- Consumo de API real com **Fetch**
+- Manipulação de estado com **useState** e **useEffect**
+- Atualização da UI após operações CRUD
+- Deploy profissional no **Netlify**
+- Integração completa entre **Front + Back**
