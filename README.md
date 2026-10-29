@@ -68,7 +68,10 @@ O frontend é hospedado no **Netlify**, garantindo:
 - Build rápido e automático  
 - Deploy contínuo via GitHub  
 - CORS já configurado no backend  
-- Comunicação direta com a API do Render  
+- Comunicação direta com a API do Render
+
+🌐 **[Acessar aplicação — Lista de Compras](https://lista-de-compras-regina.netlify.app/)**
+
 
 ---
 
